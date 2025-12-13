@@ -72,7 +72,7 @@
 - [Исследовательское устройство](docs/research_platform.md)
 - [Основные теоретические аспекты](docs/theoretical_setup.md)
 - [1. Подготовка среды исследования](docs/01_environment_setup.md)
-- [2. Основные теоретические аспекты](docs/02_security_demonstation.md)
+- [2. Демонстрация безопасности данных при выключенной VM](docs/02_security_demonstation.md)
 - [3. Атака №1 - доступ к оперативной памяти VM](docs/03_ram_attack.md)
 - [4. Атака №2 - извлечение LUKS master key из RAM](docs/04_luks_masterkey_attack.md)
 - [5. Атака №3 - расшифровка полного диска VM offline](docs/05_full_disk_decryption.md)
