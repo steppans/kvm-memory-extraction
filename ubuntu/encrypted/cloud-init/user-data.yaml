@@ -1,0 +1,19 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: vm001
+    username: ubuntu
+    password: '$6$rounds=4096$1FBkcY6sDHABhPtF$sDp0UqJumpKu7XKxQewsHkHrQcdsCmn7v.QyaH4II7nh1q0So5YVFDMELC1Tc4ov7YqBJ5krRA6egQWe2ooae.'
+  storage:
+    layout:
+      name: lvm
+      password: "luks12345"
+  ssh:
+    install-server: true
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH7O33q/6F88/MdHTk0Sl93DtMjsisYQSjIqK6ES+Mfr
+    allow-pw: false
+  late-commands:
+    - curtin in-target --target=/target -- sed -i 's|GRUB_CMDLINE_LINUX_DEFAULT=".*"|GRUB_CMDLINE_LINUX_DEFAULT="console=ttyAMA0,115200n8 cryptdevice=/dev/vda3:ubuntu-root"|' /etc/default/grub
+    - curtin in-target --target=/target -- update-grub
