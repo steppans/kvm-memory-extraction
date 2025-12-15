@@ -127,8 +127,8 @@ sudo apt install cloud-image-utils
 
 Для настройки виртуальной машины используются файлы конфигурации cloud-init:
 
-- [user-data.yaml](./ubuntu/raw/cloud-init/user-data.yaml)
-- [meta-data.yaml](./ubuntu/raw/cloud-init/meta-data.yaml)
+- [user-data.yaml](../ubuntu/raw/cloud-init/user-data.yaml)
+- [meta-data.yaml](../ubuntu/raw/cloud-init/meta-data.yaml)
 
 После подготовки конфигурации создаём seed-образ, который будет использоваться для инициализации виртуальной машины:
 
@@ -349,8 +349,8 @@ Wed Dec 3 04:13:08 UTC 2025
 
 Файлы конфигурации cloud-init, используемые при установке:
 
-- [`user-data.yaml`](ubuntu/encrypted/cloud-init/user-data.yaml)
-- [`meta-data.yaml`](ubuntu/encrypted/cloud-init/meta-data.yaml)
+- [`user-data.yaml`](../ubuntu/encrypted/cloud-init/user-data.yaml)
+- [`meta-data.yaml`](../ubuntu/encrypted/cloud-init/meta-data.yaml)
 
 Для задания пароля пользователя в файле `user-data.yaml` в cloud-config используется заранее сгенерированный хэш:
 
