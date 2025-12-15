@@ -22,6 +22,24 @@ neofetch
 ```
 
 ```yaml
+        _,met$$$$$gg.          steppans@kvm-memory-extraction
+     ,g$$$$$$$$$$$$$$$P.       ------------------------------
+   ,g$$P""       """Y$$.".     OS: Debian GNU/Linux 13 (trixie) aarch64
+  ,$$P'              `$$$.     Host: Raspberry Pi 4 Model B Rev 1.5
+',$$P       ,ggs.     `$$b:    Kernel: Linux 6.5.0-4-arm64
+`d$$'     ,$P"'   .    $$$     Uptime: 14 mins
+ $$P      d$'     ,    $$P     Packages: 848 (dpkg)
+ $$:      $$.   -    ,d$$'     Shell: bash 5.2.15
+ $$;      Y$b._   _,d$P'       Cursor: Adwaita
+ Y$$.    `.`"Y$$$$P"'          Terminal: /dev/pts/0
+ `$$b      "-.__               CPU: BCM2711 (4) @ 1.50 GHz
+  `Y$$b                        GPU 1: Broadcom bcm2711-vc5 [Integrated]
+   `Y$$.                       GPU 2: Broadcom 2711-v3d [Integrated]
+     `$$b.                     Memory: 363.66 MiB / 7.62 GiB (5%)
+       `Y$$b.                  Swap: Disabled
+         `"Y$b._               Disk (/): 16.72 GiB / 56.82 GiB (29%) - ext4
+             `""""             Local IP (wlan0): 192.168.31.23/24
+                               Locale: C
 ```
 
 ## Подключение к Wi-Fi на Raspberry Pi
