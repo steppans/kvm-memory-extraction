@@ -76,7 +76,7 @@
 - [3. Атака №1 - доступ к оперативной памяти VM](docs/03_ram_attack.md)
 - [4. Атака №2 - извлечение LUKS master key из RAM](docs/04_luks_masterkey_attack.md)
 - [5. Атака №3 - расшифровка полного диска VM offline](docs/05_full_disk_decryption.md)
-- [6. Формирование отчёта и выводов](docs/06_report_and_conclusions.md)
+- [6. Формирование отчёта и выводов](docs/06_threat_model_and_conclusions.md)
 
 ## СПИСОК ИСПОЛЬЗУЕМЫХ МАТЕРИАЛОВ
 
